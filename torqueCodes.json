@@ -1,0 +1,1215 @@
+[
+    {
+        "id": "kff122e",
+        "description": "0-100kph Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff1278",
+        "description": "0-100mph Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff124f",
+        "description": "0-200kph Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff1277",
+        "description": "0-30mph Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff122d",
+        "description": "0-60mph Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff122f",
+        "description": "1/4 mile Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 30
+    },
+    {
+        "id": "kff1230",
+        "description": "1/8 mile Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff1264",
+        "description": "100-0kph Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff1280",
+        "description": "100-200kph Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff1260",
+        "description": "40-60mph Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff1265",
+        "description": "60-0mph Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff125e",
+        "description": "60-120mph Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff1276",
+        "description": "60-130mph Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff125f",
+        "description": "60-80mph Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff1261",
+        "description": "80-100mph Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff1275",
+        "description": "80-120kph Time",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "k47",
+        "description": "Absolute Throttle Position B",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1223",
+        "description": "Acceleration Sensor (Total)",
+        "type": "float",
+        "unit": "g",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "id": "kff1220",
+        "description": "Acceleration Sensor (X Axis)",
+        "type": "float",
+        "unit": "g",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "id": "kff1221",
+        "description": "Acceleration Sensor (Y Axis)",
+        "type": "float",
+        "unit": "g",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "id": "kff1222",
+        "description": "Acceleration Sensor (Z Axis)",
+        "type": "float",
+        "unit": "g",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "id": "k49",
+        "description": "Accelerator Pedal Position D",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k4a",
+        "description": "Accelerator Pedal Position E",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k4b",
+        "description": "Accelerator Pedal Position F",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff124d",
+        "description": "Air Fuel Ratio (Commanded)",
+        "type": "float",
+        "min": 0,
+        "max": 30
+    },
+    {
+        "id": "kff1249",
+        "description": "Air Fuel Ratio (Measured)",
+        "type": "float",
+        "min": 0,
+        "max": 30
+    },
+    {
+        "id": "k12",
+        "description": "Air Status",
+        "type": "float"
+    },
+    {
+        "id": "k46",
+        "description": "Ambient Air Temp",
+        "type": "float",
+        "unit": "°C",
+        "min": -40,
+        "max": 50
+    },
+    {
+        "id": "kff129a",
+        "description": "Android Device Battery Level",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1263",
+        "description": "Average Trip Speed (Whilst Moving Only)",
+        "type": "float",
+        "unit": "km/h",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff1272",
+        "description": "Average Trip Speed (Whilst Stopped or Moving)",
+        "type": "float",
+        "unit": "km/h",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff1007",
+        "description": "Â kff1007",
+        "type": "float"
+    },
+    {
+        "id": "kff1270",
+        "description": "Barometer (On Android device)",
+        "type": "float",
+        "unit": "mb",
+        "min": 800,
+        "max": 1100
+    },
+    {
+        "id": "k33",
+        "description": "Barometric Pressure (From Vehicle)",
+        "type": "float",
+        "unit": "kPa",
+        "min": 0,
+        "max": 255
+    },
+    {
+        "id": "k3c",
+        "description": "Catalyst Temperature (Bank 1 Sensor 1)",
+        "type": "float",
+        "unit": "°C",
+        "min": 0,
+        "max": 60
+    },
+    {
+        "id": "k3e",
+        "description": "Catalyst Temperature (Bank 1 Sensor 2)",
+        "type": "float",
+        "unit": "°C",
+        "min": 0,
+        "max": 60
+    },
+    {
+        "id": "k3d",
+        "description": "Catalyst Temperature (Bank 2 Sensor 1)",
+        "type": "float",
+        "unit": "°C",
+        "min": 0,
+        "max": 60
+    },
+    {
+        "id": "k3f",
+        "description": "Catalyst Temperature (Bank 2 Sensor 2)",
+        "type": "float",
+        "unit": "°C",
+        "min": 0,
+        "max": 60
+    },
+    {
+        "id": "kff1258",
+        "description": "CO2 (Average)",
+        "type": "float",
+        "unit": "g/km",
+        "min": 0,
+        "max": 120
+    },
+    {
+        "id": "kff1257",
+        "description": "CO2 (Instantaneous)",
+        "type": "float",
+        "unit": "g/km",
+        "min": 0,
+        "max": 120
+    },
+    {
+        "id": "k44",
+        "description": "Commanded Equivalence Ratio (lambda)",
+        "type": "float",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "kff126d",
+        "description": "Cost per mile/km (Instant)",
+        "type": "string",
+        "unit": "$/km",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff126e",
+        "description": "Cost per mile/km (Trip)",
+        "type": "float",
+        "unit": "$/km",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff126a",
+        "description": "Distance to empty (Estimated)",
+        "type": "float",
+        "unit": "km",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k31",
+        "description": "Distance Travelled Since Codes Cleared",
+        "type": "float",
+        "unit": "km",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k21",
+        "description": "Distance Travelled With MIL/CEL Lit",
+        "type": "float",
+        "unit": "km",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k22125b",
+        "description": "DPF Active Regen Switch",
+        "type": "float",
+        "min": 0,
+        "max": 255
+    },
+    {
+        "id": "k2c",
+        "description": "EGR Commanded",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k2d",
+        "description": "EGR Error",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k22111c",
+        "description": "EGR Valve Opening Angle",
+        "type": "float",
+        "unit": "grad",
+        "min": 0,
+        "max": 90
+    },
+    {
+        "id": "k5",
+        "description": "Engine Coolant Temperature",
+        "type": "float",
+        "unit": "°C",
+        "min": -40,
+        "max": 120
+    },
+    {
+        "id": "kff1273",
+        "description": "Engine kW (At the Wheels)",
+        "type": "float",
+        "unit": "kW",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k4",
+        "description": "Engine Load",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k43",
+        "description": "Engine Load (Absolute)",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 20000
+    },
+    {
+        "id": "k5c",
+        "description": "Engine Oil Temperature",
+        "type": "float",
+        "unit": "°C",
+        "min": -40,
+        "max": 60
+    },
+    {
+        "id": "kc",
+        "description": "Engine RPM",
+        "type": "float",
+        "unit": "rpm",
+        "min": 0,
+        "max": 10000
+    },
+    {
+        "id": "k22114b",
+        "description": "Estimated Catalyst Temp",
+        "type": "float",
+        "unit": "C",
+        "min": 0,
+        "max": 1000
+    },
+    {
+        "id": "k22114c",
+        "description": "Estimated DPF Temp",
+        "type": "float",
+        "unit": "C",
+        "min": 0,
+        "max": 1000
+    },
+    {
+        "id": "k52",
+        "description": "Ethanol Fuel %",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k32",
+        "description": "Evap System Vapor Pressure",
+        "type": "float",
+        "unit": "Pa",
+        "min": 0,
+        "max": 1000
+    },
+    {
+        "id": "k78",
+        "description": "Exhaust Gas Temperature Bank 1 Sensor 1",
+        "type": "float",
+        "unit": "°C",
+        "min": 0,
+        "max": 600
+    },
+    {
+        "id": "k79",
+        "description": "Exhaust Gas Temperature Bank 2 Sensor 1",
+        "type": "float",
+        "unit": "Â°C",
+        "min": 0,
+        "max": 600
+    },
+    {
+        "id": "kff125c",
+        "description": "Fuel Cost (Trip)",
+        "type": "float",
+        "unit": "$",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff125d",
+        "description": "Fuel Flow Rate/Hour",
+        "type": "float",
+        "unit": "l/hr",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff125a",
+        "description": "Fuel Flow Rate/Minute",
+        "type": "float",
+        "unit": "cc/min",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k2f",
+        "description": "Fuel Level (From Engine ECU)",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "ka",
+        "description": "Fuel Pressure",
+        "type": "float",
+        "unit": "kPa",
+        "min": 0,
+        "max": 765
+    },
+    {
+        "id": "k23",
+        "description": "Fuel Rail Pressure",
+        "type": "float",
+        "unit": "kPa",
+        "min": 0,
+        "max": 60
+    },
+    {
+        "id": "k22",
+        "description": "Fuel Rail Pressure (Relative to Manifold Vacuum)",
+        "type": "float",
+        "unit": "kPa",
+        "min": 0,
+        "max": 60
+    },
+    {
+        "id": "kff126b",
+        "description": "Fuel Remaining (Calculated From Vehicle Profile)",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k3",
+        "description": "Fuel Status",
+        "type": "float"
+    },
+    {
+        "id": "k7",
+        "description": "Fuel Trim Bank 1 Long Term",
+        "type": "float",
+        "unit": "%",
+        "min": -25,
+        "max": 25
+    },
+    {
+        "id": "k14",
+        "description": "Fuel Trim Bank 1 Sensor 1",
+        "type": "float",
+        "unit": "%",
+        "min": -100,
+        "max": 100
+    },
+    {
+        "id": "k15",
+        "description": "Fuel Trim Bank 1 Sensor 2",
+        "type": "float",
+        "unit": "%",
+        "min": -100,
+        "max": 100
+    },
+    {
+        "id": "k16",
+        "description": "Fuel Trim Bank 1 Sensor 3",
+        "type": "float",
+        "unit": "%",
+        "min": -100,
+        "max": 100
+    },
+    {
+        "id": "k17",
+        "description": "Fuel Trim Bank 1 Sensor 4",
+        "type": "float",
+        "unit": "%",
+        "min": -100,
+        "max": 100
+    },
+    {
+        "id": "k6",
+        "description": "Fuel Trim Bank 1 Short Term",
+        "type": "float",
+        "unit": "%",
+        "min": -25,
+        "max": 25
+    },
+    {
+        "id": "k9",
+        "description": "Fuel Trim Bank 2 Long Term",
+        "type": "float",
+        "unit": "%",
+        "min": -25,
+        "max": 25
+    },
+    {
+        "id": "k18",
+        "description": "Fuel Trim Bank 2 Sensor 1",
+        "type": "float",
+        "unit": "%",
+        "min": -100,
+        "max": 100
+    },
+    {
+        "id": "k19",
+        "description": "Fuel Trim Bank 2 Sensor 2",
+        "type": "float",
+        "unit": "%",
+        "min": -100,
+        "max": 100
+    },
+    {
+        "id": "k1a",
+        "description": "Fuel Trim Bank 2 Sensor 3",
+        "type": "float",
+        "unit": "%",
+        "min": -100,
+        "max": 100
+    },
+    {
+        "id": "k1b",
+        "description": "Fuel Trim Bank 2 Sensor 4",
+        "type": "float",
+        "unit": "%",
+        "min": -100,
+        "max": 100
+    },
+    {
+        "id": "k8",
+        "description": "Fuel Trim Bank 2 Short Term",
+        "type": "float",
+        "unit": "%",
+        "min": -25,
+        "max": 25
+    },
+    {
+        "id": "kff1271",
+        "description": "Fuel Used (Trip)",
+        "type": "float",
+        "unit": "l",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1239",
+        "description": "GPS Accuracy",
+        "type": "float",
+        "unit": "m",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1010",
+        "description": "GPS Altitude",
+        "type": "float",
+        "unit": "m",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff123b",
+        "description": "GPS Bearing",
+        "type": "float",
+        "unit": "°",
+        "min": 0,
+        "max": 360
+    },
+    {
+        "id": "kff1006",
+        "description": "GPS Latitude",
+        "type": "array",
+        "unit": "°",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1005",
+        "description": "GPS Longitude",
+        "type": "array",
+        "unit": "°",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff123a",
+        "description": "GPS Satellites",
+        "type": "float",
+        "min": 0,
+        "max": 24
+    },
+    {
+        "id": "kff1237",
+        "description": "GPS vs OBD Speed Difference",
+        "type": "float",
+        "unit": "km/h",
+        "min": 0,
+        "max": 10
+    },
+    {
+        "id": "kff1226",
+        "description": "Horsepower (At the Wheels)",
+        "type": "float",
+        "unit": "hp",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kf",
+        "description": "Intake Air Temperature",
+        "type": "float",
+        "unit": "°C",
+        "min": -40,
+        "max": 60
+    },
+    {
+        "id": "kb",
+        "description": "Intake Manifold Pressure",
+        "type": "float",
+        "unit": "kPa",
+        "min": 0,
+        "max": 255
+    },
+    {
+        "id": "kff1203",
+        "description": "Kilometers Per Litre (Instant)",
+        "type": "float",
+        "unit": "kpl",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff5202",
+        "description": "Kilometers Per Litre (Long Term Average)",
+        "type": "float",
+        "unit": "kpl",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1207",
+        "description": "Litres Per 100 Kilometer (Instant)",
+        "type": "float",
+        "unit": "l/100km",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff5203",
+        "description": "Litres Per 100 Kilometer (Long Term Average)",
+        "type": "float",
+        "unit": "l/100km",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k10",
+        "description": "Mass Air Flow Rate",
+        "type": "float",
+        "unit": "g/s",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1201",
+        "description": "Miles Per Gallon (Instant)",
+        "type": "float",
+        "unit": "mpg",
+        "min": 0,
+        "max": 101
+    },
+    {
+        "id": "kff5201",
+        "description": "Miles Per Gallon (Long Term Average)",
+        "type": "float",
+        "unit": "mpg",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k24",
+        "description": "O2 Sensor1 Equivalence Ratio",
+        "type": "float",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "k34",
+        "description": "O2 Sensor1 Equivalence Ratio (Alternate)",
+        "type": "float",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "kff1240",
+        "description": "O2 Sensor1 Wide-range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
+    },
+    {
+        "id": "k25",
+        "description": "O2 Sensor2 Equivalence Ratio",
+        "type": "float",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "kff1241",
+        "description": "O2 Sensor2 Wide-range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
+    },
+    {
+        "id": "k26",
+        "description": "O2 Sensor3 Equivalence Ratio",
+        "type": "float",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "kff1242",
+        "description": "O2 Sensor3 Wide-range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
+    },
+    {
+        "id": "k27",
+        "description": "O2 Sensor4 Equivalence Ratio",
+        "type": "float",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "kff1243",
+        "description": "O2 Sensor4 Wide-range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
+    },
+    {
+        "id": "k28",
+        "description": "O2 Sensor5 Equivalence Ratio",
+        "type": "float",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "kff1244",
+        "description": "O2 Sensor5 Wide-range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
+    },
+    {
+        "id": "k29",
+        "description": "O2 Sensor6 Equivalence Ratio",
+        "type": "float",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "kff1245",
+        "description": "O2 Sensor6 Wide-range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
+    },
+    {
+        "id": "k2a",
+        "description": "O2 Sensor7 Equivalence Ratio",
+        "type": "float",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "kff1246",
+        "description": "O2 Sensor7 Wide-range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
+    },
+    {
+        "id": "k2b",
+        "description": "O2 Sensor8 Equivalence Ratio",
+        "type": "float",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "kff1247",
+        "description": "O2 Sensor8 Wide-range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
+    },
+    {
+        "id": "kff1214",
+        "description": "O2 Volts Bank 1 Sensor 1",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 1
+    },
+    {
+        "id": "kff1215",
+        "description": "O2 Volts Bank 1 Sensor 2",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 1
+    },
+    {
+        "id": "kff1216",
+        "description": "O2 Volts Bank 1 Sensor 3",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 1
+    },
+    {
+        "id": "kff1217",
+        "description": "O2 Volts Bank 1 Sensor 4",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 1
+    },
+    {
+        "id": "kff1218",
+        "description": "O2 Volts Bank 2 Sensor 1",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 1
+    },
+    {
+        "id": "kff1219",
+        "description": "O2 Volts Bank 2 Sensor 2",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 1
+    },
+    {
+        "id": "kff121a",
+        "description": "O2 Volts Bank 2 Sensor 3",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 1
+    },
+    {
+        "id": "kff121b",
+        "description": "O2 Volts Bank 2 Sensor 4",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 1
+    },
+    {
+        "id": "kff1297",
+        "description": "Percentage of Highway Driving",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1298",
+        "description": "Percentage of Idle Driving",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1296",
+        "description": "Porcentaje de conducción en la ciudad kff1296",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k5a",
+        "description": "Relative Accelerator Pedal Position",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k45",
+        "description": "Relative Throttle Position",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "k1f",
+        "description": "Run Time Since Engine Start",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1001",
+        "description": "Speed (GPS)",
+        "type": "array",
+        "unit": "km/h",
+        "min": 0,
+        "max": 522
+    },
+    {
+        "id": "kd",
+        "description": "Speed (OBD)",
+        "type": "float",
+        "unit": "km/h",
+        "min": 0,
+        "max": 140
+    },
+    {
+        "id": "k11",
+        "description": "Throttle Position (Manifold)",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff124a",
+        "description": "Tilt (x)",
+        "type": "float"
+    },
+    {
+        "id": "kff124b",
+        "description": "Tilt (y)",
+        "type": "float"
+    },
+    {
+        "id": "kff124c",
+        "description": "Tilt (z)",
+        "type": "float"
+    },
+    {
+        "id": "ke",
+        "description": "Timing Advance",
+        "type": "float",
+        "unit": "°",
+        "min": -64,
+        "max": 63
+    },
+    {
+        "id": "kff1225",
+        "description": "Torque",
+        "type": "float",
+        "unit": "ft-lb",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kfe1805",
+        "description": "Transmission Temperature (Method 1)",
+        "type": "float",
+        "unit": "°C",
+        "min": 0,
+        "max": 105
+    },
+    {
+        "id": "kb4",
+        "description": "Transmission Temperature (Method 2)",
+        "type": "float",
+        "unit": "Â°C",
+        "min": 0,
+        "max": 105
+    },
+    {
+        "id": "kff1206",
+        "description": "Trip Average KPL",
+        "type": "float",
+        "unit": "kpl",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1208",
+        "description": "Trip Average Litres/100 KM",
+        "type": "float",
+        "unit": "l/100km",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1205",
+        "description": "Trip Average MPG",
+        "type": "float",
+        "unit": "mpg",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1204",
+        "description": "Trip Distance",
+        "type": "float",
+        "unit": "km",
+        "min": 0,
+        "max": 200
+    },
+    {
+        "id": "kff120c",
+        "description": "Trip Distance (Stored in Vehicle Profile)",
+        "type": "float",
+        "unit": "km",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1266",
+        "description": "Trip Time (Since Journey Start)",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1268",
+        "description": "Trip Time (Whilst Moving)",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1267",
+        "description": "Trip Time (Whilst Stationary)",
+        "type": "float",
+        "unit": "s",
+        "min": 0,
+        "max": 100
+    },
+    {
+        "id": "kff1202",
+        "description": "Turbo Boost",
+        "type": "float",
+        "unit": "psi",
+        "min": -20,
+        "max": 20
+    },
+    {
+        "id": "k42",
+        "description": "Voltage (Control Module)",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff1238",
+        "description": "Voltage (OBD Adapter)",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 16
+    },
+    {
+        "id": "kff1269",
+        "description": "Volumetric Efficiency (Calculated)",
+        "type": "float",
+        "unit": "%"
+    },
+    {
+        "id": "v",
+        "description": "Version",
+        "type": "string"
+    },
+    {
+        "id": "id",
+        "description": "ID",
+        "type": "string"
+    },
+    {
+        "id": "eml",
+        "description": "Username",
+        "type": "string"
+    }
+]
