@@ -244,8 +244,11 @@
     },
     {
         "id": "kff1007",
-        "description": "Â kff1007",
-        "type": "float"
+        "description": "GPS Bearing",
+        "type": "float",
+        "unit": "°",
+        "min": 0,
+        "max": 360
     },
     {
         "id": "kff1270",
@@ -722,7 +725,7 @@
         "max": 100
     },
     {
-        "id": "kf",
+        "id": "k0f",
         "description": "Intake Air Temperature",
         "type": "float",
         "unit": "°C",
@@ -730,7 +733,23 @@
         "max": 60
     },
     {
-        "id": "kb",
+        "id": "k87",
+        "description": "Intake Manfold Abs Pressure A",
+        "type": "float",
+        "unit": "kPa",
+        "min": 0,
+        "max": 2100
+    },
+    {
+        "id": "kff12a1",
+        "description": "Intake Manfold Abs Pressure B",
+        "type": "float",
+        "unit": "kPa",
+        "min": 0,
+        "max": 2100
+    },
+    {
+        "id": "k0b",
         "description": "Intake Manifold Pressure",
         "type": "float",
         "unit": "kPa",
@@ -778,6 +797,22 @@
         "max": 100
     },
     {
+        "id": "k66",
+        "description": "Mass Air Flow Sensor A",
+        "type": "float",
+        "unit": "g/s",
+        "min": 0,
+        "max": 2100
+    },
+    {
+        "id": "kff129e",
+        "description": "Mass Air Flow Sensor B",
+        "type": "float",
+        "unit": "g/s",
+        "min": 0,
+        "max": 2100
+    },
+    {
         "id": "kff1201",
         "description": "Miles Per Gallon (Instant)",
         "type": "float",
@@ -794,195 +829,292 @@
         "max": 100
     },
     {
-        "id": "k24",
-        "description": "O2 Sensor1 Equivalence Ratio",
+        "id": "kff128a",
+        "description": "Nox Post SCR",
         "type": "float",
+        "unit": "ppm",
         "min": 0,
-        "max": 2
+        "max": 1000
+    },
+    {
+        "id": "k83",
+        "description": "Nox Pre SCR",
+        "type": "float",
+        "unit": "ppm",
+        "min": 0,
+        "max": 1000
     },
     {
         "id": "k34",
-        "description": "O2 Sensor1 Equivalence Ratio (Alternate)",
+        "description": "O2 Sensor1 Wide Range Current",
         "type": "float",
-        "min": 0,
-        "max": 2
-    },
-    {
-        "id": "kff1240",
-        "description": "O2 Sensor1 Wide-range Voltage",
-        "type": "float",
-        "unit": "V",
-        "min": 0,
-        "max": 8
-    },
-    {
-        "id": "k25",
-        "description": "O2 Sensor2 Equivalence Ratio",
-        "type": "float",
-        "min": 0,
-        "max": 2
-    },
-    {
-        "id": "kff1241",
-        "description": "O2 Sensor2 Wide-range Voltage",
-        "type": "float",
-        "unit": "V",
-        "min": 0,
-        "max": 8
-    },
-    {
-        "id": "k26",
-        "description": "O2 Sensor3 Equivalence Ratio",
-        "type": "float",
-        "min": 0,
-        "max": 2
-    },
-    {
-        "id": "kff1242",
-        "description": "O2 Sensor3 Wide-range Voltage",
-        "type": "float",
-        "unit": "V",
-        "min": 0,
-        "max": 8
-    },
-    {
-        "id": "k27",
-        "description": "O2 Sensor4 Equivalence Ratio",
-        "type": "float",
-        "min": 0,
-        "max": 2
-    },
-    {
-        "id": "kff1243",
-        "description": "O2 Sensor4 Wide-range Voltage",
-        "type": "float",
-        "unit": "V",
-        "min": 0,
-        "max": 8
-    },
-    {
-        "id": "k28",
-        "description": "O2 Sensor5 Equivalence Ratio",
-        "type": "float",
-        "min": 0,
-        "max": 2
-    },
-    {
-        "id": "kff1244",
-        "description": "O2 Sensor5 Wide-range Voltage",
-        "type": "float",
-        "unit": "V",
-        "min": 0,
-        "max": 8
-    },
-    {
-        "id": "k29",
-        "description": "O2 Sensor6 Equivalence Ratio",
-        "type": "float",
-        "min": 0,
-        "max": 2
-    },
-    {
-        "id": "kff1245",
-        "description": "O2 Sensor6 Wide-range Voltage",
-        "type": "float",
-        "unit": "V",
-        "min": 0,
-        "max": 8
-    },
-    {
-        "id": "k2a",
-        "description": "O2 Sensor7 Equivalence Ratio",
-        "type": "float",
-        "min": 0,
-        "max": 2
-    },
-    {
-        "id": "kff1246",
-        "description": "O2 Sensor7 Wide-range Voltage",
-        "type": "float",
-        "unit": "V",
-        "min": 0,
-        "max": 8
-    },
-    {
-        "id": "k2b",
-        "description": "O2 Sensor8 Equivalence Ratio",
-        "type": "float",
-        "min": 0,
-        "max": 2
-    },
-    {
-        "id": "kff1247",
-        "description": "O2 Sensor8 Wide-range Voltage",
-        "type": "float",
-        "unit": "V",
-        "min": 0,
-        "max": 8
+        "unit": "mA",
+        "min": -130,
+        "max": 130
     },
     {
         "id": "kff1214",
-        "description": "O2 Volts Bank 1 Sensor 1",
+        "description": "O2 Sensor 1 Voltage",
         "type": "float",
         "unit": "V",
         "min": 0,
         "max": 1
+    },
+    {
+        "id": "kff1240",
+        "description": "O2 Sensor1 Wide Range Equivalence Ratio",
+        "type": "float",
+        "unit": "λ",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "k24",
+        "description": "O2 Sensor1 Wide Range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
     },
     {
         "id": "kff1215",
-        "description": "O2 Volts Bank 1 Sensor 2",
+        "description": "O2 Sensor2 Voltage",
         "type": "float",
         "unit": "V",
         "min": 0,
         "max": 1
+    },
+    {
+        "id": "k35",
+        "description": "O2 Sensor2 Wide Range Current",
+        "type": "float",
+        "unit": "mA",
+        "min": -130,
+        "max": 130
+    },
+    {
+        "id": "kff1241",
+        "description": "O2 Sensor2 Wide Range Equivalence Ratio",
+        "type": "float",
+        "unit": "λ",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "k25",
+        "description": "O2 Sensor2 Wide Range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
     },
     {
         "id": "kff1216",
-        "description": "O2 Volts Bank 1 Sensor 3",
+        "description": "O2 Sensor3 Voltage",
         "type": "float",
         "unit": "V",
         "min": 0,
         "max": 1
+    },
+    {
+        "id": "k36",
+        "description": "O2 Sensor3 Wide Range Current",
+        "type": "float",
+        "unit": "mA",
+        "min": -130,
+        "max": 130
+    },
+    {
+        "id": "kff1242",
+        "description": "O2 Sensor3 Wide Range Equivalence Ratio",
+        "type": "float",
+        "unit": "λ",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "k26",
+        "description": "O2 Sensor3 Wide Range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
     },
     {
         "id": "kff1217",
-        "description": "O2 Volts Bank 1 Sensor 4",
+        "description": "O2 Sensor4 Voltage",
         "type": "float",
         "unit": "V",
         "min": 0,
         "max": 1
+    },
+    {
+        "id": "k37",
+        "description": "O2 Sensor4 Wide Range Current",
+        "type": "float",
+        "unit": "mA",
+        "min": -130,
+        "max": 130
+    },
+    {
+        "id": "kff1243",
+        "description": "O2 Sensor4 Wide Range Equivalence Ratio",
+        "type": "float",
+        "unit": "λ",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "k27",
+        "description": "O2 Sensor4 Wide Range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
     },
     {
         "id": "kff1218",
-        "description": "O2 Volts Bank 2 Sensor 1",
+        "description": "O2 Sensor5 Voltage",
         "type": "float",
         "unit": "V",
         "min": 0,
         "max": 1
+    },
+    {
+        "id": "k38",
+        "description": "O2 Sensor5 Wide Range Current",
+        "type": "float",
+        "unit": "mA",
+        "min": -130,
+        "max": 130
+    },
+    {
+        "id": "kff1244",
+        "description": "O2 Sensor5 Wide Range Equivalence Ratio",
+        "type": "float",
+        "unit": "λ",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "k28",
+        "description": "O2 Sensor5 Wide Range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
     },
     {
         "id": "kff1219",
-        "description": "O2 Volts Bank 2 Sensor 2",
+        "description": "O2 Sensor6 Voltage",
         "type": "float",
         "unit": "V",
         "min": 0,
         "max": 1
+    },
+    {
+        "id": "k39",
+        "description": "O2 Sensor6 Wide Range Current",
+        "type": "float",
+        "unit": "mA",
+        "min": -130,
+        "max": 130
+    },
+    {
+        "id": "kff1245",
+        "description": "O2 Sensor6 Wide Range Equivalence Ratio",
+        "type": "float",
+        "unit": "λ",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "k29",
+        "description": "O2 Sensor6 Wide Range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
     },
     {
         "id": "kff121a",
-        "description": "O2 Volts Bank 2 Sensor 3",
+        "description": "O2 Sensor7 Voltage",
         "type": "float",
         "unit": "V",
         "min": 0,
         "max": 1
     },
     {
+        "id": "k3a",
+        "description": "O2 Sensor7 Wide Range Current",
+        "type": "float",
+        "unit": "mA",
+        "min": -130,
+        "max": 130
+    },
+    {
+        "id": "kff1246",
+        "description": "O2 Sensor7 Wide Range Equivalence Ratio",
+        "type": "float",
+        "unit": "λ",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "k2a",
+        "description": "O2 Sensor7 Wide Range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
+    },
+    {
         "id": "kff121b",
-        "description": "O2 Volts Bank 2 Sensor 4",
+        "description": "O2 Sensor8 Voltage",
         "type": "float",
         "unit": "V",
         "min": 0,
         "max": 1
+    },
+    {
+        "id": "k3b",
+        "description": "O2 Sensor8 Wide Range Current",
+        "type": "float",
+        "unit": "mA",
+        "min": -130,
+        "max": 130
+    },
+    {
+        "id": "kff1247",
+        "description": "O2 Sensor8 Wide Range Equivalence Ratio",
+        "type": "float",
+        "unit": "λ",
+        "min": 0,
+        "max": 2
+    },
+    {
+        "id": "k2b",
+        "description": "O2 Sensor8 Wide Range Voltage",
+        "type": "float",
+        "unit": "V",
+        "min": 0,
+        "max": 8
+    },
+    {
+        "id": "ka6",
+        "description": "Odometer (From ECU)",
+        "type": "float",
+        "unit": "km",
+        "min": 0,
+        "max": 200000
+    },
+    {
+        "id": "kff1296",
+        "description": "Percentage of City Driving",
+        "type": "float",
+        "unit": "%",
+        "min": 0,
+        "max": 100
     },
     {
         "id": "kff1297",
@@ -1001,12 +1133,12 @@
         "max": 100
     },
     {
-        "id": "kff1296",
-        "description": "Porcentaje de conducción en la ciudad kff1296",
+        "id": "kff12b6",
+        "description": "Positive Kinetic Energy (PKE)",
         "type": "float",
-        "unit": "%",
+        "unit": "km/h²",
         "min": 0,
-        "max": 100
+        "max": 6000
     },
     {
         "id": "k5a",
@@ -1038,7 +1170,7 @@
         "type": "array",
         "unit": "km/h",
         "min": 0,
-        "max": 522
+        "max": 160
     },
     {
         "id": "kd",
@@ -1046,7 +1178,7 @@
         "type": "float",
         "unit": "km/h",
         "min": 0,
-        "max": 140
+        "max": 160
     },
     {
         "id": "k11",
@@ -1072,7 +1204,7 @@
         "type": "float"
     },
     {
-        "id": "ke",
+        "id": "k0e",
         "description": "Timing Advance",
         "type": "float",
         "unit": "°",
@@ -1099,7 +1231,7 @@
         "id": "kb4",
         "description": "Transmission Temperature (Method 2)",
         "type": "float",
-        "unit": "Â°C",
+        "unit": "°C",
         "min": 0,
         "max": 105
     },
@@ -1169,7 +1301,7 @@
     },
     {
         "id": "kff1202",
-        "description": "Turbo Boost",
+        "description": "Turbo Boost & Vacuum Gauge",
         "type": "float",
         "unit": "psi",
         "min": -20,
@@ -1195,7 +1327,9 @@
         "id": "kff1269",
         "description": "Volumetric Efficiency (Calculated)",
         "type": "float",
-        "unit": "%"
+        "unit": "%",
+        "min": 0,
+        "max": 100
     },
     {
         "id": "v",
